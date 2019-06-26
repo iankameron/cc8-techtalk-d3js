@@ -1,3 +1,47 @@
 .my-circle {
   fill: red;
+  r: "10";
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+  cursor: ew-resize;
+}
+
+.year.label {
+  font: 500 70px "Helvetica Neue";
+  fill: #aaa;
+}
+
+.testing {
+  font-family: 'Slabo 27px', serif;
+  font-size: 3em;
+  stroke-width: "1";
+}
+
+.outline {
+  stroke-width: 1px;
+  fill: none;
+}
+
+.outline-world {
+  fill: rgba(0,0,0,.3);
+}
+
+.xradiation-bar {
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.fixed-position {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.label-position {
+  position: absolute;
+  top: 505px;
+  left: 5px;
 }
